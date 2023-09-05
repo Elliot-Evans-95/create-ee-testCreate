@@ -1,6 +1,6 @@
 {
-  "name": "create-ee-testCreate",
-  "version": "0.0.1",
+  "name": "create-ee-test_create",
+  "version": "0.0.2",
   "type": "module",
   "author": "elliot evans",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "create-ee-testCreate": "./create-ee-testCreate.mjs"
   },
   "scripts": {
-    "build": "esbuild create-ee-testCreate.js --bundle --outfile=./dist/create-ee-testCreate.js"
+    "build": "esbuild create-ee-testCreate.js --bundle --outdir=./dist --out-extension:.js=.mjs"
   },
   "files": [
     "dist",
