@@ -1,0 +1,32 @@
+{
+  "name": "create-ee-testCreate",
+  "version": "0.0.1",
+  "type": "module",
+  "author": "elliot evans",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elliot-evans-95/create-ee-testCreate.git",
+    "directory": "."
+  },
+  "exports": {
+    ".": "./create-ee-testCreate.mjs"
+  },
+  "main": "./create-ee-testCreate.mjs",
+  "bin": {
+    "create-ee-testCreate": "./create-ee-testCreate.mjs"
+  },
+  "scripts": {
+    "build": "esbuild create-ee-testCreate.js --bundle --outfile=./dist/create-ee-testCreate.js"
+  },
+  "files": [
+    "dist",
+    "create-ee-testCreate.js"
+  ],
+  "dependencies": {
+    "esbuild": "0.19.2"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
