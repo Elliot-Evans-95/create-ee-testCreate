@@ -14,7 +14,7 @@
   },
   "main": "./create-ee-testCreate.mjs",
   "bin": {
-    "create-ee-testCreate": "./create-ee-testCreate.mjs"
+    "create-ee-test_create": "./create-ee-testCreate.mjs"
   },
   "scripts": {
     "build": "esbuild create-ee-testCreate.js --bundle --outdir=./dist --out-extension:.js=.mjs"
