@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
+'use strict';
+
+console.log('testing123');
+
 // function create() {
 //     console.log('creating');
 //
@@ -12,7 +16,6 @@
 //     return 'eeCreate created!'
 // }
 //
-// console.log('testing123');
 //
 // create()
 //
@@ -20,4 +23,4 @@
 //     eeCreate
 // }
 
-import './dist/create-ee-test_create.mjs'
+// import './dist/create-ee-test_create.mjs'

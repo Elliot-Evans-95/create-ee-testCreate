@@ -12,7 +12,7 @@
     "create-ee-test_create": "create-ee-test_create.js"
   },
   "scripts": {
-    "build": "esbuild create-ee-test_create.js --bundle --outdir=./dist --out-extension:.js=.mjs"
+    "build": "esbuild create-ee-test_create.js --bundle --outdir=./ --out-extension:.js=.mjs"
   },
   "main": "./dist/create-ee-test_create.mjs",
   "files": [
