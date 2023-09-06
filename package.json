@@ -1,6 +1,6 @@
 {
   "name": "create-ee-test_create",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "author": "elliot evans",
   "license": "MIT",
@@ -9,18 +9,15 @@
     "url": "https://github.com/elliot-evans-95/create-ee-testCreate.git"
   },
   "bin": {
-    "create-ee-test_create": "./dist/create-ee-test_create.mjs"
+    "create-ee-test_create": "create-ee-test_create.js"
   },
   "scripts": {
     "build": "esbuild create-ee-test_create.js --bundle --outdir=./dist --out-extension:.js=.mjs"
   },
-  "exports": {
-    ".": "./dist/create-ee-test_create.mjs"
-  },
   "main": "./dist/create-ee-test_create.mjs",
   "files": [
-    "dist",
-    "create-ee-test_create.js"
+    "create-ee-test_create.js",
+    "dist"
   ],
   "dependencies": {
     "esbuild": "0.19.2"
