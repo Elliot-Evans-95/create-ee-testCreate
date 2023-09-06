@@ -4,23 +4,9 @@
 
 console.log('testing123');
 
-// function create() {
-//     console.log('creating');
-//
-//     return 'created!'
-// }
-//
-// function eeCreate() {
-//     console.log('eeCreate created');
-//
-//     return 'eeCreate created!'
-// }
-//
-//
-// create()
-//
-// export {
-//     eeCreate
-// }
+function create() {
+    console.log('creating');
 
-// import './dist/create-ee-test_create.mjs'
+    return 'created!'
+}
+create()
